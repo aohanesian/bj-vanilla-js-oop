@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="game-board">
+        <img src="card.png" />
+        <div>
+            <p id="announcement"></p>
+            <p id="deckLength"></p>
+        </div>
+        <div class="hands">
+            <div>
+                <span>Dealer hand:</span>
+                <span class="dealer-hand"></span>
+            </div>
+            <div>
+                <span>Player hand:</span>
+                <span class="player-hand"></span>
+            </div>
+        </div>
+        <div class="btn-group">
+            <button id="deal">Deal</button>
+            <button id="hit" disabled>Hit</button>
+            <button id="stand" disabled>Stand</button>
+            <button id="newRound" disabled>New Round</button>
+            <button id="newGame">New Game</button>
+        </div>
+    </div>
+    <script src="/main.js"></script>
+
+</body>
+
+</html>
